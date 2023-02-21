@@ -3,16 +3,51 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
+}
+
+nav,
+header,
+section,
+footer {
+  border: 1px solid black;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
+nav {
+  height: 50px;
+  width: 100%;
+}
 
+div.logo {
+  flex: 1;
+}
 
+ul {
+  justify-content: space-around; 
+  flex: 5; 
+}
+
+header,
+section,
+footer {
+  height: 22vh;
+  width: 100%;
+  
+}
+
+.flex {
+  display: flex;
+}
+
+.three-column,
+.two-column {
+  flex: 1;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
