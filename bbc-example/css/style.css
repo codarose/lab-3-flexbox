@@ -13,11 +13,14 @@ html {
 }
 
 body {
-  margin: 0 auto; 
+  margin: 0 auto;
   max-width: 780px;
 }
 
-nav, section, article  {
+header,
+section,
+footer,
+article {
   border: 1px solid black;
 }
 /******************************************
@@ -74,13 +77,12 @@ main > section {
 header {
   display: flex;
   align-items: center;
-  
 }
 
-.logo, .signin {
+.logo,
+.signin {
   flex: 1;
 }
-
 
 nav {
   height: 30px;
@@ -90,7 +92,7 @@ nav {
 nav ul {
   display: flex;
   align-items: center;
-  justify-content: space-around; 
+  justify-content: space-around;
   margin: 8px;
 }
 
@@ -98,7 +100,6 @@ nav ul {
   display: flex;
   justify-content: space-between;
 }
-
 
 .flex {
   display: flex;
@@ -110,7 +111,7 @@ nav ul {
 }
 
 .side-article {
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .side-article article {
